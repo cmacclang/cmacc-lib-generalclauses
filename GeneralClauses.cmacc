@@ -1,0 +1,36 @@
+// list of generic clauses that could be reused in contrats
+
+$ third_Party_Right = [./3rdPartyRight.cmacc]
+
+$ amend = [./Amend.cmacc]
+
+$ counterpart = [./Counterparts.cmacc]
+
+$ entire = [./Entire.cmacc]
+
+$ further_Assurance = [./FurtherAssurance.cmacc]
+
+$ no_Waiver = [./NoWaiver.cmacc]
+
+$ severability = [./Severability.cmacc]
+
+$ time_Essence = [./TimeOfEssence.cmacc]
+
+# General clauses
+
+
+1.{{third_Party_Right}}
+
+1.{{amend}}
+
+1.{{counterpart}}
+
+1.{{entire}}
+
+1.{{further_Assurance}}
+
+1.{{no_Waiver}}
+
+1.{{severability}}
+
+1.{{time_Essence}}
