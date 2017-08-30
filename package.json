@@ -1,11 +1,11 @@
 {
   "name": "cmacc-lib-generalclauses",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "repository": "https://github.com/cmacclang/cmacc-lib-generalclauses.git",
   "author": "Marc Dangeard <marc@dangeard.com>",
   "license": "MIT",
-  "flat" : true,
+  "flat": true,
   "dependencies": {
     "cmacc-lib-definitions": "cmacclang/cmacc-lib-definitions"
   }
