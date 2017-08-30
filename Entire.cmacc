@@ -1,14 +1,23 @@
-// Entire Agreement
+// Definitions
 
-$ Xnum = "Xnum"
+$ agreement = [yarn://cmacc-lib-definitions/US/Agreement.cmacc]
 
-$ buyer = "_Buyer"
+$ parties = [yarn://cmacc-lib-definitions/US/Parties.cmacc]
 
+// Content
 
-1. This Agreement constitutes a complete and exclusive statement of the terms of the agreement between the Parties with respect to the subject matter of this Agreement. For purposes of this Section {{Xnum}}, this Agreement includes:
-    a. the exhibits to this Agreement; and
-    b. any documents to be delivered pursuant to this Agreement.
-2. This Agreement supersedes all prior agreements, whether written or oral, between the Parties with respect to the subject matter of this Agreement. Without limitation of the foregoing, the following agreements are expressly superceded:
+{{#section 'x.x'}}. Entire Agreement
+
+1. This {{#definition agreement}} constitutes a complete and exclusive statement of the terms of the agreement between the {{#definition parties}} with respect to the subject matter of this {{#definition agreement}}. For purposes of this Section {{#reference this}}, this {{#definition agreement}} includes:
+
+    a. the exhibits to this {{#definition agreement}}t; and
+
+    b. any documents to be delivered pursuant to this {{#definition agreement}}.
+
+2. This {{#definition agreement}} supersedes all prior agreements, whether written or oral, between the {{#definition parties}} with respect to the subject matter of this {{#definition agreement}}. Without limitation of the foregoing, the following agreements are expressly superceded:
+
     a. any estimate or bid;
+
     b. any letter of intent;
-    c. upon the Closing, any confidentiality obligation to which {{buyer}} is subject.
+
+    c. upon the Closing, any confidentiality obligation to which Buyer is subject.

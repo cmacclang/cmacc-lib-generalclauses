@@ -1,3 +1,13 @@
-## Further Assurances
+// Definitions
 
-The Parties will execute and deliver to each other such other documents and do such other acts and things as a Party may reasonably request for the purpose of carrying out the intent of this Agreement.
+$ agreement = [yarn://cmacc-lib-definitions/US/Agreement.cmacc]
+
+$ parties = [yarn://cmacc-lib-definitions/US/Parties.cmacc]
+
+$ party = [yarn://cmacc-lib-definitions/US/Party.cmacc]
+
+// Content
+
+{{#section 'x.x'}} Further Assurances
+
+The {{#definition parties}} will execute and deliver to each other such other documents and do such other acts and things as a {{#definition party}} may reasonably request for the purpose of carrying out the intent of this {{#definition agreement}}.

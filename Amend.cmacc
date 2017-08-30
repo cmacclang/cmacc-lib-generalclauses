@@ -1,3 +1,11 @@
-## Modification
+// Definitions
 
-This Agreement may be amended, supplemented or otherwise modified only by a writing executed by the Parties
+$ agreement = [yarn://cmacc-lib-definitions/US/Agreement.cmacc]
+
+$ parties = [yarn://cmacc-lib-definitions/US/Parties.cmacc]
+
+// Content
+
+{{#section 'x.x'}} Modification
+
+This {{#definition agreement}} may be amended, supplemented or otherwise modified only by a writing executed by the {{#definition parties}}
