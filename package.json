@@ -8,5 +8,6 @@
   "flat": true,
   "dependencies": {
     "cmacc-lib-definitions": "cmacclang/cmacc-lib-definitions"
-  }
+  },
+  "test": "node test.js"
 }
