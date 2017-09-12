@@ -1,3 +1,9 @@
+// Parameters
+
+$ xnum = "Xnum"
+
+$ ti = "No Third-Party Rights"
+
 // Definitions
 
 $ parties = [yarn://cmacc-lib-definitions/US/Parties.cmacc]
@@ -6,9 +12,11 @@ $ person = [yarn://cmacc-lib-definitions/US/Person.cmacc]
 
 $ agreement = [yarn://cmacc-lib-definitions/US/Agreement.cmacc]
 
+
 // Content
 
-{{#section 'x.x'}} No Third-Party Rights
+{{xnum}}. {{ti}}
 
 1. Other than the {{#definition parties}}, no {{#definition person}} will have any legal or equitable right, remedy or claim under or with respect to this {{#definition agreement}}.
+
 2. This Agreement may be amended or terminated, and any provision of this Agreement may be waived, without the consent of any {{#definition person}} who is not a party to this {{#definition agreement}}.

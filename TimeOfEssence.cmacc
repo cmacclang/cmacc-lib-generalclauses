@@ -1,9 +1,15 @@
+// Parameters
+
+$ xnum = "Xnum"
+
+$ ti = "Time of Essence"
+
 // Definitions
 
 $ agreement = [yarn://cmacc-lib-definitions/US/Agreement.cmacc]
 
 // Content
 
-{{#section 'x.x'}}. Time of Essence
+{{xnum}}. {{ti}}
 
 Time is of the essence with regard to dates and time periods set forth or referred to in this {{#definition agreement}}.

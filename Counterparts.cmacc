@@ -1,4 +1,9 @@
 // 	This provision is based on the ABA MSPA.
+// Parameters
+
+$ xnum = "Xnum"
+
+$ ti = "Counterparts and Electronic Signatures"
 
 // Definitions
 
@@ -8,6 +13,6 @@ $ parties = [yarn://cmacc-lib-definitions/US/Parties.cmacc]
 
 // Content
 
-{{#section 'x.x'}}. Counterparts and Electronic Signatures
+{{xnum}}. {{ti}}
 
 This {{#definition agreement}} and other documents to be delivered pursuant to this {{#definition agreement}} may be executed in one or more counterparts, each of which will be deemed to be an original copy and all of which, when taken together, will be deemed to constitute one and the same agreement or document, and will be effective when counterparts have been signed by each of the {{#definition parties}} and delivered to the other {{#definition parties}}. A manual signature on this {{#definition agreement}} or other documents to be delivered pursuant to this {{#definition agreement}}, an image of which shall have been transmitted electronically, will constitute an original signature for all purposes. The delivery of copies of this {{#definition agreement}} or other documents to be delivered pursuant to this {{#definition agreement}}, including executed signature pages where required, by electronic transmission will constitute effective delivery of this {{#definition agreement}} or such other document for all purposes.
