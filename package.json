@@ -1,6 +1,6 @@
 {
   "name": "cmacc-lib-generalclauses",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "index.js",
   "repository": "https://github.com/cmacclang/cmacc-lib-generalclauses.git",
   "author": "Marc Dangeard <marc@dangeard.com>",
