@@ -12,7 +12,6 @@ $ parties = [yarn://cmacc-lib-definitions/US/Parties.cmacc]
 
 // Content
 
-{{xnum}}. 
-{{ti}}
+{{xnum}}. {{ti}}
 
 This {{#definition agreement}} may be amended, supplemented or otherwise modified only by a writing executed by the {{#definition parties}}
