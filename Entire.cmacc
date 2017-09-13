@@ -1,3 +1,9 @@
+// Parameters
+
+$ xnum = "Xnum"
+
+$ ti = "Entire Agreement"
+
 // Definitions
 
 $ agreement = [yarn://cmacc-lib-definitions/US/Agreement.cmacc]
@@ -6,7 +12,7 @@ $ parties = [yarn://cmacc-lib-definitions/US/Parties.cmacc]
 
 // Content
 
-{{#section 'x.x'}}. Entire Agreement
+{{xnum}}. {{ti}}
 
 1. This {{#definition agreement}} constitutes a complete and exclusive statement of the terms of the agreement between the {{#definition parties}} with respect to the subject matter of this {{#definition agreement}}. For purposes of this Section {{#reference this}}, this {{#definition agreement}} includes:
 

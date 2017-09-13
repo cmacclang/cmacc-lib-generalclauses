@@ -1,3 +1,9 @@
+// Parameters
+
+$ xnum = "Xnum"
+
+$ ti = "Modification"
+
 // Definitions
 
 $ agreement = [yarn://cmacc-lib-definitions/US/Agreement.cmacc]
@@ -6,6 +12,6 @@ $ parties = [yarn://cmacc-lib-definitions/US/Parties.cmacc]
 
 // Content
 
-{{#section 'x.x'}} Modification
+{{xnum}}. {{ti}}
 
 This {{#definition agreement}} may be amended, supplemented or otherwise modified only by a writing executed by the {{#definition parties}}

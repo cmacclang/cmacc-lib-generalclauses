@@ -1,6 +1,11 @@
 // This provision is based on the ABA MSPA.
+// Parameters
 
-// Definitions
+$ xnum = "Xnum"
+
+$ ti = "No Waiver"
+
+// Other definitions used
 
 $ agreement = [yarn://cmacc-lib-definitions/US/Agreement.cmacc]
 
@@ -8,13 +13,16 @@ $ party = [yarn://cmacc-lib-definitions/US/Party.cmacc]
 
 // Content
 
-{{#section 'x.x'}}. No Waiver
+{{xnum}}. {{ti}}
 
 1. A failure or delay by a {{#definition party}} in exercising a Legal Right under this {{#definition agreement}} or any of the documents referred to in this {{#definition agreement}} will not operate as a waiver of such Legal Right.
+
 2. A single or partial exercise of a Legal Right will not preclude any other or further exercise of such Legal Right or the exercise of any other Legal Right.
+
 3. To the maximum extent permitted by applicable Legal Requirements:
+
     a. a claim or right arising out of this {{#definition agreement}} or any of the documents referred to in this {{#definition agreement}} can be waived by a {{#definition party}}, in whole or in part, only if such waiver is made in a writing signed by such {{#definition party}};
+
     b. a waiver given by a {{#definition party}} will be applicable only to the specific instance for which it is given; and
-    c. a notice to or demand made by a {{#definition party}} will not:
-        i. waive or otherwise affect any obligation of the other {{#definition party}}; or
-        ii. affect the right of the {{#definition party}} giving such notice or demand to take further action without notice or demand as provided in this {{#definition agreement}} or the documents referred to in this {{#definition agreement}}.
+
+    c. a notice to or demand made by a {{#definition party}} will not: (i) waive or otherwise affect any obligation of the other {{#definition party}}; or (ii) affect the right of the {{#definition party}} giving such notice or demand to take further action without notice or demand as provided in this {{#definition agreement}} or the documents referred to in this {{#definition agreement}}.
